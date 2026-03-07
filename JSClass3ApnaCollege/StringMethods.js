@@ -7,8 +7,8 @@ console.log(msg.trim());
 
 
 //Prompt ka use trim method ke sath
-// let password = prompt("set your password");
-// console.log(password.trim());
+let password = prompt("set your password");
+console.log(password.trim());
 
 
 
@@ -31,6 +31,8 @@ console.log(str.indexOf("I"));
 console.log(str.indexOf("love"));
 
 
+
+
 //Metod Chaining(bahut sari mathod yek sath use karna)
 let mss = "   Hello    ";
 // let newmss = mss.trim();
@@ -42,9 +44,23 @@ console.log(newms);
 
 
 
+
 //Slice Method (slice ka matlab hota hai kat dena slice method ka bhi same use hai)
 console.log(str.slice(5)) ;
 console.log(str.slice(1)) ;
 console.log(str.slice(1,4)) ;
+console.log(str.slice(-2));
+
+
+//Replace
+console.log(str.replace("Love","do"));
+console.log(str.replace("I" , "We"));
+
+
+//Repeat Method
+console.log(str.repeat(5));
+
+
+
 
 
