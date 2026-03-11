@@ -19,3 +19,6 @@ console.log(name.replace("apna","Our"));
 let newname = name.slice(4).replace('l','t').replace('l','t');
 console.log(newname);
 
+
+
+
