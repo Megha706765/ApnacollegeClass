@@ -82,3 +82,15 @@ console.log(Cars);
 //Sort : Sorts an array
 console.log( Cars.sort());
 console.log(allValue.sort());
+
+//Array references
+
+
+//Constant Array
+const arr = [1,2,3];
+
+//
+let nums = [[1,2],[3,4],[5,6]];
+console.log(nums);
+console.log(nums[0][1]);
+console.log(nums[2][1]);
